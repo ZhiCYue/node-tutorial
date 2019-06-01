@@ -13,7 +13,7 @@ var server = connect()
 /**
  * 处理静态文件
  */
-server.use(connect.static(__dirname + '/website'))
+server.use(connect.static(__dirname + '/static'))
 
 /**
  * 监听

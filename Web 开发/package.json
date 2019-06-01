@@ -1,0 +1,8 @@
+{
+  "name": "my-websit-connect",
+  "version": "1.0.0",
+  "dependencies": {
+    "connect": "^2.30.2",
+    "parser": "^0.1.4"
+  }
+}
