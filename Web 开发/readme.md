@@ -256,3 +256,8 @@ server.use(connect.methodOverride())
 
 #### basicAuth 中间件
 
+见代码 basic-auth
+
+## 中间件的优点
+
+代码能以此为构建单元进行组织，并且能够获得高复用性。Connect 是一个实现这种思路的模块，它为构建更具表达力的中间件提供了基础架构。
