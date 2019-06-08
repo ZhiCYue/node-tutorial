@@ -1,0 +1,16 @@
+{
+  "name": "user-auth-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "2.5.8",
+    "jade": "0.20.3",
+    "mongodb": "^3.2.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
