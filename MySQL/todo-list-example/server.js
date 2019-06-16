@@ -12,7 +12,7 @@ var app = express.createServer()
 /**
  * 实例化 sequelize
  */
-var sequelize = new Sequelize('todo-example', 'root', 'root', { host: '127.0.0.1', port: 3306 })
+var sequelize = new Sequelize('todo-example', 'root', 'root', { host: 'localhost', port: 3306 })
 
 /**
  * 定义模型
